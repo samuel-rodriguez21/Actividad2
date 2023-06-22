@@ -1,0 +1,54 @@
+<div class="card mx-auto">
+  <form action="/login">
+    <div class="login text-center" style="padding: 5px; margin-bottom: 10px">
+      <h5>Cargar Artículo</h5>
+    </div>
+    <div class="dropdown mb-3">
+        <i class="fa fa-university" aria-hidden="true"></i>
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton1"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Tipo Subsistema
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Universidad Tecnológica</a></li>
+        <li><a class="dropdown-item" href="#">Universidad Politécnica</a></li>
+        <li><a class="dropdown-item" href="#">Instituto Tecnológico</a></li>
+      </ul>
+    </div>
+    <div class="entrada mb-3">
+        <i class="fa fa-book" aria-hidden="true"></i>
+      <input
+        type="text"
+        class="form-control"
+        id="exampleInputArticle1"
+        placeholder="Tipo Artículo"
+      />
+    </div>
+    <div class="entrada mb-3">
+        <i class="fa fa-user" aria-hidden="true"></i>
+      <input
+        type="text"
+        class="form-control"
+        id="exampleInputAutor1"
+        placeholder="Autor"
+      />
+    </div>
+    <div>
+      <button type="submit" class="btn btn-primary" style="width: 340px">
+        Cargar archivo
+      </button>
+    </div>
+    <div id="emailHelp" class="form-text text-center">
+      <p>
+        Al registrarse, aceptas nuestra Condiciones de Uso y Política de
+        Privacidad.
+      </p>
+      <p>¿No tienes una cuenta? <a href="/registro">Regístrate</a></p>
+    </div>
+  </form>
+</div>

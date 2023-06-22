@@ -1,0 +1,24 @@
+.entrada{
+    position: relative;
+}
+i{
+    position: absolute;
+    left: 13px;
+    top: 11px;
+}
+.form-control{
+    padding-left: 40px;
+}
+.card{
+    padding: 40px;
+    width: 400px;
+    padding: auto auto;
+    margin-top: 40px;
+}
+button{
+    width: 100%;
+    color: white;
+}
+.dropdown{
+    color: white;
+}
